@@ -1,0 +1,16 @@
+body {
+  background-color: salmon;
+  color: white;
+  font-family: "lato", sans-serif;
+}
+
+#blogContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+#blogContainer div {
+  background-color: white;
+  border-radius: 5px;
+  color: #333;
+  padding: irem;
+}
