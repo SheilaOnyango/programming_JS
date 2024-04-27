@@ -89,6 +89,6 @@ const displayOrder = () => {
   orderName.textContent = customerName;
   orderPrice.textContent = total;
 };
-
+//Add EventListeners to the form and button
 form.addEventListener("change", pancakePriceCalc);
 button.addEventListener("click", displayOrder);
