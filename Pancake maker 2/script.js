@@ -104,3 +104,7 @@ const createOrderCard = (customerName) => {
 
   return card;
 };
+
+//Add EventListeners for both form and button
+form.addEventListener("change", pancakePriceCalc);
+orderButton.addEventListener("click", displayOrder);
