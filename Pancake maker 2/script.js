@@ -28,3 +28,14 @@ const addItem = (itemName, category) => {
   // Push the item to the appropriate array based on the category
   (category === "toppings" ? toppings : extras).push(itemName);
 };
+
+// Function for removing items
+const removeItem = () => {};
+
+// Function to check selected toppings
+const checkToppings = () => {
+  // Reset toppings and extras arrays
+  toppings = [];
+  extras = [];
+  // Reset total with the pancake type value
+  total = parseInt(typeSelect.value);
