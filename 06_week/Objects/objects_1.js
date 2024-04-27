@@ -79,7 +79,7 @@ Values: Alex, Canada
 /*console.log(person.keys);
 console.log(person.values);*/
 
-// Task 7: Using Object Methods
+// Task 7: Using Object Method
 /*
 Define a method inside the `person` object named `greet` that returns "Hello, my name is Alex".
 Invoke this method and log the outcome.
