@@ -10,7 +10,7 @@ let teamMembers = ["John", "Emily", "Mike", "Sarah"];
 //teamMembers.shift();
 //console.log(teamMembers);
 
-// Exercise 3: Remove the last member of the array.
+// Exercise 3: Remove the last member of the array
 // Write your code here:
 /*teamMembers.pop();
 console.log(teamMembers); */
