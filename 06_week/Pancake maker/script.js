@@ -74,7 +74,7 @@ const checkToppings = () => {
   console.log("toppings array", toppings);
   console.log("extras array", extras);
 };
-
+//Display customer's order displays
 const displayOrder = () => {
   const customerName = document.querySelector("#customerName").value;
   const orderType = document.querySelector("#order_type");
