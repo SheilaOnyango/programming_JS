@@ -2,7 +2,7 @@
 
 ## CLI
 
-What it is?
+What it is?;
 CLI is a command-line program that accepts text input to execute operating system functions. Nowadays, with graphical user interfaces (GUI), most users never use command-line interfaces (CLI).
 
 CLI stands for:
