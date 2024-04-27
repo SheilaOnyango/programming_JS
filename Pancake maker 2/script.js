@@ -61,3 +61,18 @@ const checkToppings = () => {
   console.log("toppings array", toppings);
   console.log("extras array", extras);
 };
+
+// Function to animate price banner
+const animatePriceBanner = () => {
+  priceBanner.animate(
+    [
+      { transform: "scale(1)" },
+      { transform: "scale(1.05)" },
+      { transform: " scale(1)" },
+    ],
+    {
+      duration: 100,
+      iterations: 1,
+    }
+  );
+};
