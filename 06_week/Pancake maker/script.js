@@ -55,7 +55,7 @@ const addItem = (itemName, category) => {
     extras.push(itemName);
   }
 };
-
+//iterate through checkboxes to determine the selected toppings and extras
 const checkToppings = () => {
   toppings = [];
   extras = [];
