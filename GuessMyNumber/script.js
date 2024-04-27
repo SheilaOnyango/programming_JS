@@ -6,3 +6,6 @@ let score = 20;
 
 // Define a variable highScore with an initial value of 0 to keep track of the highest score achieved by the player
 let highScore = 0;
+
+// Add an event listener to the HTML element with the class check that listens for a click event and executes the provided function when clicked
+document.querySelector(".check").addEventListener("click", function () 
