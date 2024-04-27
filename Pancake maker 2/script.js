@@ -40,9 +40,8 @@ const checkToppings = () => {
   // Reset total with the pancake type value
   total = parseInt(typeSelect.value);
 
-  
   // Iterate over checkboxes to check for selected toppings
-  checkboxes.forEach(item => {
+  checkboxes.forEach((item) => {
     const itemName = item.dataset.name;
     const category = item.dataset.category;
 
@@ -55,3 +54,10 @@ const checkToppings = () => {
       removeItem(itemName, category);
     }
   });
+  // Display updated total price
+  totalPriceElement.textContent = `$${total}`;
+
+  // Logging arrays for debugging
+  console.log("toppings array", toppings);
+  console.log("extras array", extras);
+};
