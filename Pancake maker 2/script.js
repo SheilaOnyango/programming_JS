@@ -85,3 +85,22 @@ const createOrderCard = (customerName) => {
   const cardToppings = document.createElement("p");
   const cardExtras = document.createElement("p");
   const cardName = document.createElement("p");
+
+  // Generate random order number
+  const orderNumber = Math.floor(Math.random() * 90000) + 10000;
+
+  // Set text content for elements
+  h3.textContent = `Order: ${orderNumber}`;
+  cardType.textContent = `Type: ${typeSelect.selectedOptions[0].text}`;
+  cardToppings.textContent = `Toppings: ${toppings.join(", ")}`;
+  cardExtras.textContent = `Extras: ${extras.join(", ")}`;
+  cardName.textContent = `Name: ${customerName}`;
+
+  // Add class to card
+  card.className = "order-card";
+
+  // Append elements to card
+  card.append(h3, cardType, cardToppings, cardExtras, cardName);
+
+  return card;
+};
