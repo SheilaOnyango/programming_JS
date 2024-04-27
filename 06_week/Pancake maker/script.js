@@ -47,7 +47,7 @@ const pancakePriceCalc = () => {
     }
   );
 };
-
+//Add seleected item to array
 const addItem = (itemName, category) => {
   if (category === "toppings") {
     toppings.push(itemName);
