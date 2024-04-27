@@ -8,4 +8,8 @@ let score = 20;
 let highScore = 0;
 
 // Add an event listener to the HTML element with the class check that listens for a click event and executes the provided function when clicked
-document.querySelector(".check").addEventListener("click", function () 
+document.querySelector(".check").addEventListener("click", function () {
+  // Retrieve the value entered by the player in an input field with the class "guess" and convert it to a number, storing it in the variable guess
+  const guess = Number(document.querySelector(".guess").value);
+  console.log(guess, typeof guess); // Log the guess and its type to the console
+});
