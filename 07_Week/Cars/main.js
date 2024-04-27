@@ -33,7 +33,7 @@ const addCar = (e) => {
 };
 
 const displayTable = () => {
-  const table = document.querySelector("#carsTable");
+  const table = document.querySelector("#carsTabl");
 
   table.innerHTML = table.rows[0].innerHTML;
 
