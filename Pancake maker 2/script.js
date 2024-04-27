@@ -39,3 +39,19 @@ const checkToppings = () => {
   extras = [];
   // Reset total with the pancake type value
   total = parseInt(typeSelect.value);
+
+  
+  // Iterate over checkboxes to check for selected toppings
+  checkboxes.forEach(item => {
+    const itemName = item.dataset.name;
+    const category = item.dataset.category;
+
+    if (item.checked) {
+      // Update total and add selected topping
+      total += parseInt(item.value);
+      addItem(itemName, category);
+    } else {
+      // Placeholder for removing unchecked items (currently empty)
+      removeItem(itemName, category);
+    }
+  });
