@@ -82,7 +82,7 @@ console.log(person.values);*/
 // Task 7: Using Object Method
 /*
 Define a method inside the `person` object named `greet` that returns "Hello, my name is Alex".
-Invoke this method and log the outcome.
+Invoke this method and log the outcome
 Expected outcome: "Hello, my name is Alex"
 */
 
