@@ -11,3 +11,14 @@ const orderContainer = document.getElementById("order-container");
 let total = parseInt(typeSelect.value);
 let toppings = [];
 let extras = [];
+
+// Function to calculate pancake price
+const pancakePriceCalc = () => {
+  // Update total price and display
+  total = parseInt(typeSelect.value);
+  totalPriceElement.textContent = `$${total}`;
+  // Check for selected toppings
+  checkToppings();
+  // Animate price banner
+  animatePriceBanner();
+};
