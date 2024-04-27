@@ -25,7 +25,7 @@ const button = document.querySelector("button");
 let total;
 let toppings = [];
 let extras = [];
-
+//Calculate total price of the pancake according to flavor
 const pancakePriceCalc = () => {
   const totalPriceElement = document.querySelector("#totalPrice");
   const priceBanner = document.querySelector(".price-banner");
