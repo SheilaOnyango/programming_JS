@@ -76,3 +76,12 @@ const animatePriceBanner = () => {
     }
   );
 };
+
+// Function to create order card
+const createOrderCard = (customerName) => {
+  const card = document.createElement("div");
+  const h3 = document.createElement("h3");
+  const cardType = document.createElement("p");
+  const cardToppings = document.createElement("p");
+  const cardExtras = document.createElement("p");
+  const cardName = document.createElement("p");
