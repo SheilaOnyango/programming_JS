@@ -10,5 +10,5 @@
 - Use the typeof operator to check the data type of each new variable and print the result using console.log().
 */
 
-let num1 = 2.2
-let num2 = 1.5
+let num1 = 2.2;
+let num2 = 1.5;

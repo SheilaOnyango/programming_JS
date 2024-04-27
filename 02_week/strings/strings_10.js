@@ -3,11 +3,10 @@ Refine the capitalize function to ensure it capitalizes the first letter of the 
  */
 
 function capitalize(word) {
-    return word[0].toUpperCase()+
-    word.slice(1).toLowerCase();
+  return word[0].toUpperCase() + word.slice(1).toLowerCase();
 }
 
 // Sample usage - do not modify
-console.log(capitalize('sam')); // "Sam"
-console.log(capitalize('ALEX')); // "Alex"
-console.log(capitalize('chARLie')); // "Charlie"
+console.log(capitalize("sam")); // "Sam"
+console.log(capitalize("ALEX")); // "Alex"
+console.log(capitalize("chARLie")); // "Charlie"

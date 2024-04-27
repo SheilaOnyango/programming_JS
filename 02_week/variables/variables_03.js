@@ -4,7 +4,7 @@
 // Console.log the value of student (must output “Mikko”).
 
 let student, name;
-name = "Mikko"
+name = "Mikko";
 student = name;
 
 console.log(student);

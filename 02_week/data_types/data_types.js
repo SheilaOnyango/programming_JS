@@ -10,17 +10,19 @@
 - Use the typeof operator to check the data type of each variable and print the result using console.log(). */
 
 let age = 10;
-let name = 'Sheila';
-let isStudent = 'True';
+let name = "Sheila";
+let isStudent = "True";
 
-let hobbies = ('reading', 'documentaries');
-let info = {schoolName: 'Business College',
-             Grade: 10
-};
+let hobbies = ("reading", "documentaries");
+let info = { schoolName: "Business College", Grade: 10 };
 
-console.log (typeof age); "number"
-console.log (typeof name); "string"
-console.log (typeof isStudent); "boolean"
-console.log(typeof hobbies); "object"
-console.log(typeof info); "object"
-
+console.log(typeof age);
+("number");
+console.log(typeof name);
+("string");
+console.log(typeof isStudent);
+("boolean");
+console.log(typeof hobbies);
+("object");
+console.log(typeof info);
+("object");

@@ -2,11 +2,11 @@
 // Complete the function convertStringToNumber such that it converts the string it receives into a number.
 
 function convertNumberToString(number) {
-    return number.tostring();
+  return number.tostring();
 }
 
 function convertStringToNumber(string) {
-    return Number.parseInt(string);
+  return Number.parseInt(string);
 }
 
 // Sample usage - do not modify
@@ -14,6 +14,6 @@ console.log(convertNumberToString(42)); // "42"
 console.log(convertNumberToString(97)); // "97"
 console.log(convertNumberToString(11)); // "11"
 
-console.log(convertStringToNumber('42')); // 42
-console.log(convertStringToNumber('97')); // 97
-console.log(convertStringToNumber('11')); // 11
+console.log(convertStringToNumber("42")); // 42
+console.log(convertStringToNumber("97")); // 97
+console.log(convertStringToNumber("11")); // 11
