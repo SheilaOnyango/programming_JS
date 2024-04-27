@@ -22,3 +22,9 @@ const pancakePriceCalc = () => {
   // Animate price banner
   animatePriceBanner();
 };
+
+// Function to add an item to toppings or extras array
+const addItem = (itemName, category) => {
+  // Push the item to the appropriate array based on the category
+  (category === "toppings" ? toppings : extras).push(itemName);
+};
