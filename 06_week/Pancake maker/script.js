@@ -14,11 +14,14 @@ Use the `addEventListener` method for listening to changes and the `forEach` met
 - Adjust the pancake image to cover 50% of the page and extend to full viewport height, creating a visually striking layout.
 - Implement a captivating animation for the price display to draw attention to price changes.
 - Ensure your application looks great on both desktop and mobile devices by employing responsive design techniques. */
+
+//select elements from the DOM
 const form = document.querySelector(".form-container");
 const checkboxes = document.querySelectorAll('input[type="checkbox"]');
 const typeSelect = document.querySelector("#type");
 const button = document.querySelector("button");
 
+//Define variables
 let total;
 let toppings = [];
 let extras = [];
